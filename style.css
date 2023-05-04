@@ -1,23 +1,25 @@
 #container {
   background-color: black;
   display: flex;
-  
-  
+  flex-wrap: wrap;
 }
 a {
   text-decoration: none;
   color: white;
-  
 }
-img {
- border: 1px solid #ddd;
-  border-radius: 4px;
-  width: 100px;
+.logo {
+  font-weight: bold;
+  color: white;
+  flex: 1;
 }
+ ul {
+   display: flex;
+ }
 .head {
   flex-basis: 50%;
+  color: white;
 }
-hi {
+h1 {
   font-weight: bold;
 }
 p {
@@ -28,24 +30,16 @@ p {
 button {
   width: 100px;
   font-size: 13px;
-  paddding: 12px 0;
+  padding: none;
   color: white;
   background-color: blue;
   border-radius: 100px;
   margin: 10px;
 }
-div {
-  flex: 1;
-}
-
-#container {
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-}
 ul {
   display: flex;
   align-items: center;
-  
   gap: 8px;
 }
+.
+
