@@ -23,11 +23,13 @@ a {
 
 h1 {
   font-weight: bold;
+  color: #F9FAF8;
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
   font-style: italic;
+  color: #E5E7EB;
 }
 
 button {
