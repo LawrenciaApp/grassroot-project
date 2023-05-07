@@ -1,5 +1,5 @@
 #container {
-  background-color: black;
+  background-color: #1F2937;
   display: flex;
   flex-wrap: wrap;
 }
@@ -8,8 +8,8 @@ a {
   color: white;
 }
 .logo {
-  font-weight: bold;
-  color: white;
+  font-weight: 24px;
+  color: #F9FAF8;
   flex: 1;
 }
  ul {
@@ -22,7 +22,7 @@ a {
 }
 
 h1 {
-  font-weight: bold;
+  font-weight: 48px extra-bold;
   color: #F9FAF8;
 }
 
@@ -37,7 +37,7 @@ button {
   font-size: 13px;
   padding: none;
   color: white;
-  background-color: blue;
+  background-color: #3882f6;
   border-radius: 100px;
   margin: 10px;
 }
@@ -122,14 +122,14 @@ p {
 }
 
 .box {
-  background-color: dimgray;
+  background-color: #1F2937;
   width: 100%;
 }
 .box footer .copyright {
   display: flex;
   justify-content: center;
   text-align: left;
-  padding: 40px;
+  padding: 20px;
   
   
   
